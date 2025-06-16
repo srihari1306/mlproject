@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vroom Vroom Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="index-container">
+        <div class="hero-section">
+            <h1>Vroom Vroom Analysis</h1>
+            <p class="hero-subtitle">Get instant, accurate car price predictions powered by advanced machine learning</p>
+            <a href="{{ url_for('predict_datapoint') }}" class="start-button">Start Predicting</a>
+        </div>
+    </div>
+</body>
+</html>
